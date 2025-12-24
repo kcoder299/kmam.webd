@@ -5,9 +5,28 @@
      <link href="css/bootstrap.min.css" rel="stylesheet">
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Bootstrap</title>
+      <title>WD</title>
    </head> 
-    <body> 
+   <style> 
+/* Custom media query */ 
+@media (min-width: 500px) { 
+.custom-bg { 
+background-color: darkseagreen; 
+} 
+} 
+@media (min-width: 800px) { 
+.custom-bg { 
+background-color: rgb(43, 219, 43); 
+} 
+} 
+@media (min-width: 992px) { 
+.custom-bg { 
+background-color: rgb(238, 162, 162); 
+} 
+} 
+.container{border:1}
+</style> 
+    <body> <br>
 <div class="container"> 
  <div class="row"> 
   <div class="col text-warning bg-dark">English</div> 
@@ -32,8 +51,57 @@
   <div class="col"> 6 </div> 
  </div> 
 </div>
+<div class="container mt-5"> 
+<div class="custom-bg p-3"> 
+This section changes color based on screen width. 
+</div> 
+</div> <br>
+<div class="container  bg-info"> 
+<div class="row"> 
+<div class="col-sm-2">English</div> 
+<div class="col-sm-2">Math</div> 
+<div class="col-sm-2">Chemistry</div> 
+<div class="col-sm-2">Biology</div> 
+<div class="col-sm-2">Physics</div> 
+<div class="col-sm-2">History</div> 
+</div> 
+</div><br>
+<div class="container bg-danger"> 
+<div class="row"> 
+<div class="col-6 col-sm-2">English</div> 
+<div class="col-6 col-sm-2">Math</div> 
+<div class="col-6 col-sm-2">Chemistry</div> 
+<div class="col-6 col-sm-2">Biology</div> 
+<div class="col-6 col-sm-2">Physics</div> 
+<div class="col-6 col-sm-2">History</div> 
+</div> 
+</div> <br>
+<div class="container bg-primary"> 
+<div class="row"> 
+<div class="col-6 col-sm-4 col-md-2">English</div> 
+<div class="col-6 col-sm-4 col-md-2">Math</div> 
+<div class="col-6 col-sm-4 col-md-2">Chemistry</div> 
+<div class="col-6 col-sm-4 col-md-2">Biology</div> 
+<div class="col-6 col-sm-4 col-md-2">Physics</div> 
+<div class="col-6 col-sm-4 col-md-2">History</div> 
+</div> 
+</div> <br>
+<div class="container mt-5"> 
+<div class="row"> 
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2"> 
+<div class="bg-primary text-white p-3">Column 1</div> 
+</div> 
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2"> 
+<div class="bg-secondary text-white p-3">Column 2</div> 
+</div> 
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2"> 
+<div class="bg-success text-white p-3">Column 3</div> 
+</div> 
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2"> 
+<div class="bg-danger text-white p-3">Column 4</div> 
+</div> 
+</div> 
+</div> 
     </body>
   </html>
-
-
 
